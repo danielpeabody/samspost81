@@ -15,10 +15,18 @@ body {
 body,
 h1,
 h2,
-h3,
-p {
+h3 {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
+p,
+ul{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;;
+}
+
 
 
 header nav {
@@ -44,13 +52,13 @@ img {
 h1 {
     font-size: 4.8rem;
     text-align: center;
+    text-decoration: underline;
 }
 
 h2 {
     font-size: 3.2rem;
     text-align: center;
     padding-block: 2rem;
-    text-decoration: underline;
 }
 
 .nav-logo{
@@ -59,17 +67,12 @@ h2 {
 
 .container {
     margin-inline: auto;
-    width: min(90%,100rem);
+    width: min(100%,100rem);
 }
 
 
 .title {
     text-align: center;
-}
-
-.formal-dinner {
-    border: black .2rem solid;
-    margin-bottom: 1rem;
 }
 
 .badge-display {
