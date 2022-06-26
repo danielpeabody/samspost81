@@ -86,7 +86,18 @@ h2 {
     display: block;
     width: 25%;
     margin-top: 2rem;
+    
+}
+
+.grid-caption {
+    padding-block: 3rem;
     text-align: center;
-    text-decoration: underline;
+    width: 50%;
+    margin-inline: auto;
+}
+.grid-caption h3{
+    font-size: 1.6rem;
+}
+.grid-caption p {
     font-size: 1.2rem;
 }
