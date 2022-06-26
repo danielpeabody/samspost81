@@ -20,11 +20,17 @@ nav ul {
 }
 
 .nav-logo{
-    height: 12rem;
+    height: 4rem;
 }
 
 .formal-dinner {
+    border: black .2rem solid;
+    width: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+.badges {
     width: 100%;
-    display: inline-block;
-    border: .2rem black solid;
+    display: flex;
 }
