@@ -50,6 +50,21 @@ img {
     width: min(90%,100rem);
 }
 
+
+#title {
+    text-align: center;
+}
+
 .formal-dinner {
     border: black .2rem solid;
+}
+
+.badge-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.badge {
+    display: block;
 }
