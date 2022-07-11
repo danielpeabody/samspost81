@@ -1,0 +1,38 @@
+
+html { 
+    background: url(images/scotarmy.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    max-width: 75ch;
+}
+
+
+.main {
+    max-width: 1000px;
+    background-color: white;
+    margin-inline: auto;
+    margin-top: 50px;
+    border-radius: 3%;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.hero img {
+    width: 30rem;
+}
