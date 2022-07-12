@@ -6,128 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200&family=Lora&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
     <title>Testing</title>
 </head>
 <body>
-<header>
-    <nav>
-        <img src="images/american-flag.png" alt="Sams Logo" class="nav-logo">
-        <ul>
-            <li>Branches</li>
-            <li>Mission</li>
-            <li>About Us</li>
-            <li>HeadQuarters</li>
-            <li>Uniform</li>
-            <li>Join Us</li>
-        </ul>
-    </nav>
-</header>
-<section>
-    <div class="container">
-        <h1>Sams Post 81</h1>
-        <img src="images/june-formal-dinner-6.jpg" alt="formal dinner" class="formal-dinner">
+    <header>
+        <nav class="nav">
+            <ul class="nav_items">
+                <div class="nav_item">
+                    <li><a href="#">Sams Post 81</a></li>
+                </div>
+                <div class="nav_item">
+                    <a href="#"><li>About Us</li></a>
+                    <a href="#"><li>HQ</li></a>
+                    <a href="#"><li>Uniform</li></a>
+                    <a href="#"><li>Gallery</li></a>
+                    <a href="#"><li>Join</li></a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero_container">
+        <div class="hero_content">
+            <p class="hero_title"><strong>S</strong>cottish</p>
+            <p class="hero_title"><strong>A</strong>merican</p>
+            <p class="hero_title"><strong>M</strong>ilitary</p>
+            <p class="hero_title"><strong>S</strong>ociety.</p>
+            <p id="hero_caption">“To preserve and promote Scottish and American Armed Forces customs, traditions, and heritage”</p>
+            <button class="button-1">Join</button>
+        </div>
+        <div class="hero_img">
+            <img src="images/herosams.png" alt="sams coat of arms">
+        </div>
     </div>
-</section>
 
-<section>
-    <div class="container">
-        <h2>Our Service Branches</h2>
+    <div class="badge_container">
         <div class="badge-display">
             <img class="badge" src="images/air-force.png" alt="Air force logo">
-            <img class="badge"src="images/army-logo-removebg-preview.png" alt="Army logo"></p>
-            <img class="badge"src="images/navy-removebg-preview.png" alt="Navy logo"></p>
-            <img class="badge"src="images/marines-removebg-preview.png" alt="Marine logo"></p>
-            <img class="badge"src="images/coast-guard-removebg-preview.png" alt="Coast Guard logo"></p>
-            <img class="badge"src="images/us-space-force-removebg-preview.png" alt="Space Force logo"></p>
-        </div>
-        <div class="grid-caption">
-            <h3>Active Duty or Veteran?</h3>
-            <p>The Scottish American Military Society invites any currently active duty or
-                veteran members to join!
-            </p>
+            <img class="badge"src="images/army-logo.png" alt="Army logo"></p>
+            <img class="badge"src="images/navy.png" alt="Navy logo"></p>
+            <img class="badge"src="images/marines.png" alt="Marine logo"></p>
+            <img class="badge"src="images/coast-guard.png" alt="Coast Guard logo"></p>
+            <img class="badge"src="images/spaceforce.png" alt="Space Force logo"></p>
         </div>
     </div>
-</section>
-<hr>
 
-<section>
-    <div class="container">
-        <div class="about-us">
+    <div class="about_container">
+        <h2>About Us</h2>
+        <div class="history">
             <div>
-                <h3>About Us</h3>
-                <br>
+                <img src="images/archie-macintosh-highlighted.jpg" alt="">
+            </div>
+            <div>
+                <h3>Our History</h3>
+                <p>Archie McIntosh was a famed Scots-Indian scout for the US Army during the Indian Wars period of our westward expansion and Post 81 is proud to carry his name on our Post.
+                   <br><br> McIntosh was described as “tall, slender…a good drinking man and a hell of a talker.” He sometimes had to be propped up on his horse or carried in a wagon after an all-night binge, but the temperate General Crook always forgave him of his behavior, believing McIntosh’s professional judgement was “Razor Sharp”
+                </p>
+            </div>
+        </div>
+        <div class="mission">
+            <div>
+                <h3>Our Mission</h3>
                 <p>The Scottish–American Military Society (SAMS) was founded and chartered in North Carolina, April 12, 1981, as a non-profit organization with the following purpose:</p>
-                <br>
                 <ul>
-                    <li> Providing a forum for exchange of military history and genealogical information</li>
-                    <li> Conducting public education programs</li>
-                    <li> Presenting military student honor awards</li>
-                    <li> Supporting Scottish activities at Highland Games</li>
-                    <li> Making contributions to qualified scholarship funds or institutions</li>
-                    <li> Making appropriate charitable contributions</li>
-                    <li> Providing a fraternal atmosphere for members</li>
+                    <li>Providing a forum for exchange of military history and genealogical information</li>
+                    <li>Conducting public education programs</li>
+                    <li>Presenting military student honor awards</li>
+                    <li>Supporting Scottish activities at Highland Games</li>
+                    <li>Making contributions to qualified scholarship funds or institutions</li>
+                    <li>Making appropriate charitable contributions</li>
+                    <li>Providing a fraternal atmosphere for members</li>
                 </ul>
             </div>
-            <img class="sams-badge" src="images/tn-samsbadge-removebg-preview.png" alt="Scottish American Military Society Badge">
-        </div>
-    </div>
-</section>
-<br>
-<hr>
-
-<section>
-    <div class="container">
-        <h3 class="headquarters">HeadQuarters</h3>
-        <div class="card-holder">
-            <div class="card">
-                <img src="images/allan-2.jpg" alt="Avatar">
-                <div class="card-container">
-                  <h4><b>ALLEN SPERLING</b></h4>
-                  <p>Arizona Post 81 Commander</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="images/dad.jpg" alt="Avatar">
-                <div class="card-container">
-                  <h4><b>GUY PEABODY</b></h4>
-                  <p>Vice Commander/Alfa Company Commander</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="images/bob.jpg" alt="Avatar">
-                <div class="card-container">
-                  <h4><b>ROBERT "BOB" MONTGOMERY</b></h4>
-                  <p>Architect & Engineer</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="images/david.jpg" alt="Avatar">
-                <div class="card-container">
-                  <h4><b>DAVID BARNHILL</b></h4>
-                  <p>Vice Commander/Bravo Company Commander</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="images/kieven-single.jpg" alt="Avatar">
-                <div class="card-container">
-                  <h4><b>KIVEN HARDISON</b></h4>
-                  <p> Bravo Company Adjutant </p>
-                </div>
+            <div>
+                <img src="images/marchingwithorders.jpg" alt="">
             </div>
         </div>
+        <div class="membership">
+            <div>
+                <img src="images/atease.jpg" alt="">
+            </div>
+            <div>
+                <h3>Membership</h3>
+                <p>The Society was founded as a veterans organization. The membership is composed primarily of veterans of Scottish ancestry who have served –– or are serving –– in the Armed Forces of the United States and the Commonwealth. If you support the purposes shown above, we would welcome your membership if you qualify. Membership is open to honorably discharged veterans or active duty or reserve military persons who have served or are serving with any branch of the United States or Commonwealth Armed Forces.</p>
+                <button class="button-2">Sams Charter</button>
+                <button class="button-2">Sams By-Laws</button>
+            </div>
+        </div>
+        </div>
     </div>
-
-</section>
-
-<section>
     <footer>
-        <p>Footer Placeholder</p>
+        <p>&copy; Daniel's Development</p>
     </footer>
-</section>
-
-
-</div>
 </body>
+<script src="script.js"></script>
 </html>
