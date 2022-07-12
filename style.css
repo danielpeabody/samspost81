@@ -7,7 +7,11 @@ html {
     font-family: 'Merriweather', serif;
   }
 
-body,
+body{
+    margin-inline: 5rem;
+    padding-inline: 5rem;
+}
+
 ul,
 li,
 div,
@@ -80,7 +84,7 @@ buttons
     transform: translate(2px, 2px);
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     .button-1 {
       min-width: 120px;
       padding: 0 25px;
@@ -142,13 +146,15 @@ buttons
 layout 
 =====*/
 
+
+/* hero */
 .hero_container {
     display: flex;
     margin-inline: 5rem;
-    align-items: center;
-    justify-content: center;
     padding-top: 10rem;
     justify-content: space-around;
+    align-items: center;
+    gap: 5%;
 }
 .hero_title {
     font-size: 8rem;
@@ -163,12 +169,53 @@ layout
 
 .hero_container img {
     filter: drop-shadow(10px 5px 4px black);
+    width: 100%;
 }
 
 .hero_title strong {
     color: #020873;
 }
 
+
+@media (max-width:1200px){
+
+    .hero_title {
+        font-size: 6rem;
+    }
+    #hero_caption {
+        font-size: 1.5rem;
+        max-width: 40ch;
+    }
+}
+
+@media (max-width:950px){
+
+    .hero_title {
+        font-size: 4rem;
+    }
+    #hero_caption {
+        font-size: 1.2rem;
+        max-width: 40ch;
+    }
+}
+
+@media (max-width:750px){
+
+    .hero_title {
+        font-size: 4rem;
+    }
+    #hero_caption {
+        font-size: 1.2rem;
+        max-width: 40ch;
+    }
+
+    .hero_container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+/* badge section */
 .badge_container {
     background-color: whitesmoke;
     padding: 3rem;
