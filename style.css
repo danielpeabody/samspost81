@@ -8,8 +8,8 @@ html {
   }
 
 body{
-    margin-inline: 5rem;
-    padding-inline: 5rem;
+    margin-inline: 2rem;
+    padding-inline: 2rem;
 }
 
 ul,
@@ -118,7 +118,7 @@ buttons
 }
 
 @media (min-width: 768px) {
-  .button-50 {
+  .button-2 {
     padding: 12px 50px;
   }
 }
@@ -209,6 +209,29 @@ layout
     gap: 3rem;
 }
 
+@media (max-width:800px){
+    .badge-display img {
+        max-width: 100px;
+    }
+    .badge-display{
+        gap: 1rem;
+    }
+    .badge_container {
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width:500px){
+    .badge-display img {
+        max-width: 70px;
+    }
+    .badge-display{
+        gap: 1rem;
+    }
+}
+
+/* about us */
+
 .about_container {
     padding-top: 3em;
     display: flex;
@@ -262,6 +285,23 @@ layout
 
 .mission li {
     list-style-type: "~ ";
+}
+
+@media (max-width:800px){
+
+    .history, .membership {
+        display: flex;
+        flex-direction: column;
+    }
+    .mission {
+        flex-direction: column-reverse;
+    }
+    .mission,.history,.membership img {
+        margin-top: -5rem;
+    }
+    .about_container h3 {
+        margin-top: 2rem;
+    }
 }
 
 footer {
