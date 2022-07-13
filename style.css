@@ -23,6 +23,11 @@ p {
     max-width: 70ch;
 }
 
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 /*=========
  Navigation
