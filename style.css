@@ -190,6 +190,10 @@ buttons
     padding: 12px 50px;
   }
 }
+
+.button-2 {
+    color: white;
+}
 /*===
 layout 
 =====*/
