@@ -208,10 +208,9 @@ layout
     flex-wrap: wrap;
     gap: 3rem;
 }
-
-@media (max-width:800px){
+@media (max-width:1450px){
     .badge-display img {
-        max-width: 100px;
+        max-width: 110px;
     }
     .badge-display{
         gap: 1rem;
@@ -221,12 +220,24 @@ layout
     }
 }
 
-@media (max-width:500px){
+@media (max-width:900px){
     .badge-display img {
-        max-width: 70px;
+        max-width: 75px;
     }
     .badge-display{
         gap: 1rem;
+    }
+    .badge_container {
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width:700px){
+    .badge-display img {
+        max-width: 60px;
+    }
+    .badge-display{
+        gap: .5rem;
     }
 }
 
@@ -269,18 +280,21 @@ layout
     max-width: 400px;
     border: 2px solid black;
     border-radius: 3%;
+    width: 100%;
 }
 
 .mission img {
     max-width: 400px;
     border: 2px solid black;
     border-radius: 3%;
+    width: 100%;
 }
 
 .membership img {
     max-width: 450px;
     border: 2px solid black;
     border-radius: 3%;
+    width: 100%;
 }
 
 .mission li {
