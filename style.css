@@ -39,6 +39,7 @@ p {
     list-style-type: none;
     font-size: 1.8rem;
     padding-top: 2rem;
+    overflow: hidden;
 }
 
 .nav_item {
