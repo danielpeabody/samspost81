@@ -215,16 +215,16 @@ layout
     white 20%,
     #020873 40%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .hero_title_container {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .hero_container img {
     filter: drop-shadow(10px 5px 4px black);
-    width: 100%;
 }
 
 .hero_title strong {
@@ -233,6 +233,29 @@ layout
 
 #titlelastline {
     padding-bottom: 2rem;
+}
+
+@media (max-width:1200px){
+
+    .hero_container{
+        flex-direction: column-reverse;
+    }
+    .hero_container img{
+        padding-bottom: 5rem;
+    }
+}
+
+@media (max-width:800px){
+
+    .hero_container{
+        flex-direction: column-reverse;
+    }
+    .hero_container img{
+        width: 100%;
+    }
+    .hero_title_container{
+        font-size: 200%;
+    }
 }
 
 /* badge section */
