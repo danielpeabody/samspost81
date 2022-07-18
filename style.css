@@ -202,21 +202,24 @@ layout
 /* hero */
 .hero_container {
     display: flex;
-    margin-inline: 5rem;
-    padding-top: 10rem;
     justify-content: space-around;
     align-items: center;
-    gap: 5%;
-}
-.hero_title {
-    font-size: 8rem;
-    line-height: 1rem;
-    font-weight: 700;
+    margin-inline: auto;
+    padding-top: 10rem;
+    width: 80%;
 }
 
-#hero_caption {
-    font-size: 2rem;
-    max-width: 40ch;
+.gradient {
+    background: linear-gradient(40deg,
+    #8C0303 40%,
+    white 20%,
+    #020873 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero_title_container {
+    font-size: 3rem;
 }
 
 .hero_container img {
@@ -228,43 +231,8 @@ layout
     color: #020873;
 }
 
-
-@media (max-width:1200px){
-
-    .hero_title {
-        font-size: 6rem;
-    }
-    #hero_caption {
-        font-size: 1.5rem;
-        max-width: 40ch;
-    }
-}
-
-@media (max-width:950px){
-
-    .hero_title {
-        font-size: 4rem;
-    }
-    #hero_caption {
-        font-size: 1.2rem;
-        max-width: 40ch;
-    }
-}
-
-@media (max-width:750px){
-
-    .hero_title {
-        font-size: 4rem;
-    }
-    #hero_caption {
-        font-size: 1.2rem;
-        max-width: 40ch;
-    }
-
-    .hero_container{
-        display: flex;
-        flex-direction: column-reverse;
-    }
+#titlelastline {
+    padding-bottom: 2rem;
 }
 
 /* badge section */
