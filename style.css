@@ -217,6 +217,7 @@ layout
     margin-inline: auto;
     padding-top: 10rem;
     width: 80%;
+    text-shadow: 2px 2px 100px black;
 }
 
 .gradient {
