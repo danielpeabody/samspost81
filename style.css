@@ -190,52 +190,19 @@
 }
 
 /* BADGE SECTION */
-.badge_container {
+.badgecontainer {
     background-color: whitesmoke;
     padding: 3rem;
     margin-top: 20rem;
 
 }
 
-.badge-display {
+.badgecontainer__wrap {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 3rem;
 }
-@media (max-width:1450px){
-    .badge-display img {
-        max-width: 110px;
-    }
-    .badge-display{
-        gap: 1rem;
-    }
-    .badge_container {
-        margin-top: 5rem;
-    }
-}
-
-@media (max-width:900px){
-    .badge-display img {
-        max-width: 75px;
-    }
-    .badge-display{
-        gap: 1rem;
-    }
-    .badge_container {
-        margin-top: 5rem;
-    }
-}
-
-@media (max-width:700px){
-    .badge-display img {
-        max-width: 60px;
-    }
-    .badge-display{
-        gap: .5rem;
-    }
-}
-
 /* ABOUT */
 
 .about_container {
