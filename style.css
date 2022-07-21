@@ -195,6 +195,9 @@
     .navbar__mobilenav{
         font-size: 3rem;
     }
+    .hero{
+        flex-direction: row-reverse;
+    }
 }
 
 @media (min-width: 800px) {
