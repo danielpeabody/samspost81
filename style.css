@@ -1,3 +1,10 @@
+/* VARIABLES */
+
+:root {
+    --primary-color:#8C0303;
+    --secondary-color: #020873;
+}
+
 /* CSS RESSET */
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -191,6 +198,7 @@
     white-space: nowrap;
 }
 
+
 .hero__container h2 {
     font-size: clamp(1.8rem, -0.1200rem + 5.1200vw, 5rem);
 }
@@ -203,6 +211,16 @@
 
 .hero__container img {
     width: clamp(180px, 90%, 600px);
+}
+
+.hero--gradient {
+        background: linear-gradient(40deg,
+        #8C0303 40%,
+        white 20%,
+        #020873 40%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
 
 @media (min-width: 600px){
