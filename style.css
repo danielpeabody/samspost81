@@ -191,6 +191,8 @@
 
 .hero__container{
     margin: 1rem;
+    text-shadow: 2px 2px 100px black;
+    font-weight: bold;
 }
 
 .hero__container h1 {
@@ -211,6 +213,7 @@
 
 .hero__container img {
     width: clamp(180px, 90%, 600px);
+    filter: drop-shadow(10px 5px 4px black);
 }
 
 .hero--gradient {
