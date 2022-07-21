@@ -153,6 +153,10 @@
 
 /* LAYOUT */
 
+body {
+    background-color: whitesmoke;
+}
+
 /* NAVBAR */
 
 .navbar {
@@ -212,6 +216,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-block: 3rem;
+    margin-bottom: 10rem;
 }
 
 .hero__container{
@@ -262,13 +268,20 @@
     }
 }
 
+.block {
+    background-color: #000;
+    width: 100%;
+    height: 3px;
+    border-radius: 30%;
+}
+
+
 /* BADGE SECTION */
 .badgecontainer__wrap {
-    background-color: whitesmoke;
+    background-color: white;
     display: flex;
     justify-content: center;
     gap: .25rem;
-    margin-top: 10rem;
     padding-block: 1rem;
 }
 
@@ -291,7 +304,7 @@
 /* ABOUT */
 
 .aboutsection__container {
-    padding-top: 3em;
+    padding-top: 10em;
     display: flex;
     flex-direction: column;
     align-items: center;
