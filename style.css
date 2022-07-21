@@ -301,11 +301,20 @@
 }
 
 .aboutsection__container h2 {
-    font-size: 4rem;
+    font-size: clamp(2rem, -0.4000rem + 6.4000vw, 5rem);
+    font-weight: bold;
+    background: linear-gradient(40deg,
+    #8C0303 40%,
+    white 20%,
+    #020873 40%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .aboutsection__container h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
 .aboutsection__container p {
