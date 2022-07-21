@@ -165,7 +165,7 @@
     align-items: center;
     padding: 1rem;
     font-size: 2rem;
-    background-color: silver;
+    background-color: whitesmoke;
 }
 
 .navbar__link{
@@ -234,18 +234,30 @@
 }
 
 /* BADGE SECTION */
-.badgecontainer {
-    background-color: whitesmoke;
-    padding: 3rem;
-    margin-top: 20rem;
-
-}
-
 .badgecontainer__wrap {
+    background-color: whitesmoke;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 3rem;
+    gap: .25rem;
+    margin-top: 10rem;
+    padding-block: 1rem;
+}
+
+.badgecontainer__badge {
+    width: clamp(5rem, -1.0000rem + 16.0000vw, 15rem);
+    white-space: nowrap;
+}
+
+@media (min-width: 750px) {
+    .badgecontainer__wrap {
+        gap: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .badgecontainer__wrap {
+        gap: 2rem;
+    }
 }
 /* ABOUT */
 
