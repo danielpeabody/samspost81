@@ -89,7 +89,7 @@
   }
 
 
-.button-2 {
+.aboutsection__button {
   appearance: button;
   background-color: #000;
   background-image: none;
@@ -116,32 +116,33 @@
   white-space: nowrap;
 }
 
-.button-2:focus {
+.aboutsection__button:focus {
   text-decoration: none;
 }
 
-.button-2:hover {
+.aboutsection__button:hover {
   text-decoration: none;
 }
 
-.button-2:active {
+.aboutsection__button:active {
   box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
   outline: 0;
 }
 
-.button-2:not([disabled]):active {
+.aboutsection__button:not([disabled]):active {
   box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
   transform: translate(2px, 2px);
 }
 
 @media (min-width: 768px) {
-  .button-2 {
+  .aboutsection__button {
     padding: 12px 50px;
   }
 }
 
-.button-2 {
+.aboutsection__button a {
     color: white;
+    text-decoration: none;
 }
 
 /* LAYOUT */
@@ -205,7 +206,7 @@
 }
 /* ABOUT */
 
-.about_container {
+.aboutsection__container {
     padding-top: 3em;
     display: flex;
     flex-direction: column;
@@ -213,70 +214,70 @@
     margin-inline: 2rem;
     }
 
-.about_container > div {
+.aboutsection__container > div {
     padding-top: 7rem;
     display: flex;
     gap: 10%;
 }
 
-.about_container h2 {
+.aboutsection__container h2 {
     font-size: 4rem;
 }
 
-.about_container h3 {
+.aboutsection__container h3 {
     font-size: 2rem;
 }
 
-.about_container p {
-    font-size: 1.8rem;
+.aboutsection__container p {
+    font-size: 1.7rem;
     line-height: 3ch;
     max-width: 60ch;
 }
 
-.about_container ul{
+.aboutsection__container ul{
     font-size: 1.6rem;
     line-height: 3ch;
     max-width: 60ch;
 }
 
-.history img {
+.aboutsection__history img {
     max-width: 400px;
     border: 2px solid black;
     border-radius: 3%;
     width: 100%;
 }
 
-.mission img {
+.aboutsection__mission img {
     max-width: 400px;
     border: 2px solid black;
     border-radius: 3%;
     width: 100%;
 }
 
-.membership img {
+.aboutsection__membership img {
     max-width: 450px;
     border: 2px solid black;
     border-radius: 3%;
     width: 100%;
 }
 
-.mission li {
+.aboutsection__mission li {
     list-style-type: "~ ";
 }
 
 @media (max-width:800px){
 
-    .history, .membership {
+    .aboutsection__history, .aboutsection__membership {
         display: flex;
         flex-direction: column;
     }
-    .mission {
+    .aboutsection__mission {
         flex-direction: column-reverse;
     }
-    .mission,.history,.membership img {
+    .aboutsection__mission,.aboutsection__history,.aboutsection__membership img {
         margin-top: -5rem;
     }
-    .about_container h3 {
+    .aboutsection__container h3 {
         margin-top: 2rem;
     }
 }
