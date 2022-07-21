@@ -172,63 +172,21 @@
 
 
 /* HERO */
-.hero_container {
+.hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin-inline: auto;
-    padding-top: 10rem;
-    width: 80%;
-    text-shadow: 2px 2px 100px black;
+}
+.hero__container {
+    margin: 5rem;
 }
 
-.gradient {
-    background: linear-gradient(40deg,
-    #8C0303 40%,
-    white 20%,
-    #020873 40%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+.hero__container h1 {
+    font-size: 3rem;
 }
 
-.hero_title_container {
-    font-size: 3.5rem;
-}
-
-.hero_container img {
-    filter: drop-shadow(10px 5px 4px black);
-}
-
-.hero_title strong {
-    color: #020873;
-}
-.hero_container p {
+.hero__container h2 {
     font-size: 2rem;
-    max-width: 40ch;
-}
-
-@media (max-width:1200px){
-
-    .hero_container{
-        flex-direction: column-reverse;
-    }
-    .hero_container img{
-        padding-bottom: 5rem;
-    }
-}
-
-@media (max-width:800px){
-
-    .hero_container{
-        flex-direction: column-reverse;
-    }
-    .hero_container img{
-        width: 100%;
-    }
-    .hero_title_container{
-        font-size: 200%;
-    }
 }
 
 /* BADGE SECTION */
