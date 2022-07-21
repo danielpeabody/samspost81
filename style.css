@@ -230,10 +230,11 @@
     font-size: clamp(1.8rem, -0.1200rem + 5.1200vw, 5rem);
 }
 .hero__container p{
-    font-size: 1.2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 20ch;
+    display: inline;
+    position: relative;
+    top: 2rem;
+    font-size: 1rem;
+    width: 50ch;
 }
 
 .hero__container img {
