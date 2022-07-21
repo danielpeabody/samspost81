@@ -164,7 +164,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 1.4rem;
     background-color: whitesmoke;
 }
 
@@ -175,10 +175,14 @@
 .navbar__list > div{
     display: flex;
     align-items: center;
+    font-size: 2rem;
     gap: 1rem;
 }
 .navbar__img{
     width: 50px;
+}
+@media (min-width: 800px) {
+
 }
 
 
