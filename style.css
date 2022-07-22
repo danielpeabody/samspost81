@@ -530,10 +530,6 @@
     object-position: 100% 0;
 }
 
-.hq__container img:hover {
-    box-shadow: 3px 1px 10px;
-}
-
 .hidden {
     display: none;
 }
