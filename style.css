@@ -228,7 +228,7 @@
 }
 
 .hero__container h1 {
-    font-size: clamp(2.2rem, -0.4000rem + 6.4000vw, 6rem);
+    font-size: clamp(2.2rem, -0.4000rem + 6.4000vw, 8rem);
     white-space: nowrap;
 }
 
@@ -266,6 +266,15 @@
     }
     .hero__container img{
         width: 100%;
+    }
+}
+
+@media (min-width: 1000px){
+    .hero__container img {
+        width: 110%;
+    }
+    .hero__container p {
+        font-size: 1.5rem;
     }
 }
 
