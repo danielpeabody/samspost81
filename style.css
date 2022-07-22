@@ -57,6 +57,10 @@
     font-family: 'Merriweather', serif;
   }
 
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
 /* BUTTONS */
  .hero__button {
     background-color: #8C0303;
@@ -152,10 +156,6 @@
 }
 
 /* LAYOUT */
-
-body {
-    background-color: whitesmoke;
-}
 
 /* NAVBAR */
 
@@ -279,7 +279,7 @@ body {
 
 /* BADGE SECTION */
 .badgecontainer__wrap {
-    background-color: white;
+    background-color: whitesmoke;
     display: flex;
     justify-content: center;
     gap: .25rem;
@@ -389,9 +389,110 @@ body {
     }
 }
 
+/* Headquarters */
+
+.hqsection {
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: 5rem;
+    padding: 1rem;
+    border: 2px solid var(--secondary-color);
+    filter: drop-shadow(10px 10px 10px);
+    border-radius: 2%;
+}
+
+.hqsection__wrapper {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 3rem;
+    margin-inline: 2rem;
+
+}
+
+@media (min-width: 768px) {
+    .hqsection {
+        width: 80%;
+        margin-inline: auto;
+        margin-top: 8rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .hqsection {
+        width: 60%;
+        margin-inline: auto;
+        margin-top: 14rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hqsection {
+        width: 50%;
+        margin-inline: auto;
+    }
+}
+
+.hqsection h2 {
+    font-size: clamp(2rem, -0.4000rem + 6.4000vw, 5rem);
+    font-weight: bold;
+    background: linear-gradient(30deg,
+    #8C0303 50%,
+    #020873 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hqsection img {
+    border: 2px solid black;
+    box-shadow: 2px 1px 1px var(--secondary-color);
+    border-radius: 2%;
+    width: 150px;
+    object-fit: cover;
+}
+
+.hqsection__container h3 {
+    font-size: 1.8rem;
+    margin: .8rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.hqsection__container h4 {
+    font-size: 1.2rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.hqsection__container p{
+    font-size: 1.2rem
+}
+.hqtext {
+    margin: 1rem;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.hqsection__buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.hqsection__buttons p{
+    margin: 0rem;
+}
+
+.hqsection__buttons button {
+    line-height: 1rem;
+    width: 6rem;
+    margin: .5rem;
+}
+
 footer {
     padding: 2rem;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
