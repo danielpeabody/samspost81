@@ -202,7 +202,9 @@
 }
 
 .hq__button:hover {
-  background-color: var(--secondary-color);
+    background: linear-gradient(40deg,
+    #8C0303 50%,
+    #020873 50%);
   opacity: 90%;
   color: white;
 }
@@ -470,19 +472,20 @@
     margin-inline: auto;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    border-radius: 2%;
     background-color: whitesmoke;
-    margin: 2rem;
+    margin-top: 2rem;
 }
 .hq__wrapcontainer {
     display: flex;
 }
 
 .hq h2 {
-    font-size: clamp(2rem, -0.4000rem + 6.4000vw, 5rem);
+    font-size: clamp(4rem, -0.4000rem + 6.4000vw, 5rem);
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
-    margin: 2rem;
+    margin-top: 1rem;
 }
 
 
@@ -492,8 +495,14 @@
 }
 
 .hq__container h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
+    background: linear-gradient(180deg,
+    #8C0303 50%,
+    #020873 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hq__contact {
@@ -502,21 +511,16 @@
     font-size: 1.2rem;
 }
 .hq__contact a {
-    background: linear-gradient(360deg,
-    #8C0303 50%,
-    #020873 50%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: black;
     text-decoration: none;
 }
 .hq__titles {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 .hq__description {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 1rem;
 }
 
