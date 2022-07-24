@@ -551,6 +551,7 @@ p,ul, li{
 }
 .hq__wrapcontainer {
   display: flex;
+  justify-content: space-around;
 }
 
 .hq h2 {
@@ -576,7 +577,6 @@ p,ul, li{
 }
 
 .hq__contact {
-  display: inline-block;
   margin-block: 0.5rem;
   font-size: 1.2rem;
 }
@@ -588,6 +588,7 @@ p,ul, li{
   font-size: 1.5rem;
   font-weight: bold;
   margin: 1rem;
+  max-width: 25ch;
 }
 
 .hq__description {
