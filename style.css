@@ -633,6 +633,94 @@ p,ul, li{
   }
 }
 
+
+/* Uniform */
+
+.uniformsection__container {
+  padding-top: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 2rem;
+}
+
+.uniformsection__container > div {
+  padding-top: 7rem;
+  display: flex;
+  gap: 10%;
+}
+
+.uniformsection__container h2 {
+  font-size: clamp(2rem, -0.4rem + 6.4vw, 5rem);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.uniformsection__container h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  background: linear-gradient(180deg, #8c0303 50%, #020873 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.uniformsection__container p {
+  font-size: 1.7rem;
+  line-height: 3ch;
+  max-width: 60ch;
+}
+
+.uniformsection__container ul {
+  font-size: 1.5rem;
+  line-height: 3ch;
+  max-width: 60ch;
+}
+
+.uniformsection__history img {
+  max-width: 400px;
+  border: 2px solid black;
+  border-radius: 3%;
+  width: 100%;
+}
+
+.uniformsection__mission img {
+  max-width: 400px;
+  border: 2px solid black;
+  border-radius: 3%;
+  width: 100%;
+}
+
+.uniformsection__membership img {
+  max-width: 450px;
+  border: 2px solid black;
+  border-radius: 3%;
+  width: 100%;
+}
+
+.uniformsection__mission li {
+  list-style-type: "~ ";
+}
+
+@media (max-width: 800px) {
+  .uniformsection__history,
+  .uniformsection__membership {
+    display: flex;
+    flex-direction: column;
+  }
+  .uniformsection__mission {
+    flex-direction: column-reverse;
+  }
+  .uniformsection__mission,
+  .unifromsection__history,
+  .uniformsection__membership img {
+    margin-top: -5rem;
+  }
+  .uniformsection__container h3 {
+    margin-top: 2rem;
+  }
+}
+
 footer {
   padding: 2rem;
   display: flex;
