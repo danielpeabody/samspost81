@@ -732,6 +732,35 @@ p,ul, li{
   }
 }
 
+/* Events */
+
+.events {
+  margin-inline: auto;
+  padding: 5rem;
+  text-align: center;
+  max-width: 600px;
+}
+
+.events h2 {
+  font-size: clamp(2rem, -0.4rem + 6.4vw, 5rem);
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 2rem;
+}
+
+.events__container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  border: 5px solid black;
+  border-radius: 2%;
+  background: linear-gradient(180deg, #8c0303 50%, #020873 50%);
+}
+
+.events__container img{
+  width: 100%;
+}
+
 footer {
   padding: 2rem;
   display: flex;
