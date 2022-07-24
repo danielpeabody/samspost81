@@ -540,6 +540,14 @@ p,ul, li{
 
 /* Headquarters */
 
+.hq__header {
+    font-size: clamp(4rem, -0.4rem + 6.4vw, 5rem);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10rem;
+}
+
 .hq {
   overflow: hidden;
   margin-inline: auto;
