@@ -315,7 +315,7 @@ p,ul, li{
   align-items: center;
   padding: 1rem;
   font-size: 1.4rem;
-  background-color: whitesmoke;
+  background-color: silver;
 }
 
 .navbar__link {
@@ -428,7 +428,7 @@ p,ul, li{
 
 /* BADGE SECTION */
 .badgecontainer__wrap {
-  background-color: whitesmoke;
+  background-color: silver;
   display: flex;
   justify-content: center;
   gap: 0.25rem;
@@ -554,7 +554,7 @@ p,ul, li{
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   border-radius: 2%;
-  background-color: whitesmoke;
+  background-color: silver;
   margin-top: 2rem;
 }
 .hq__wrapcontainer {
