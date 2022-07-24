@@ -759,6 +759,7 @@ p,ul, li{
 
 .events__container img{
   width: 100%;
+  border-radius: 1%;
 }
 
 footer {
