@@ -315,7 +315,8 @@ p,ul, li{
   align-items: center;
   padding: 1rem;
   font-size: 1.4rem;
-  background-color: silver;
+  background-color: #d9d9d9;
+  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
 }
 
 .navbar__link {
@@ -428,7 +429,8 @@ p,ul, li{
 
 /* BADGE SECTION */
 .badgecontainer__wrap {
-  background-color: silver;
+  background-color: #d9d9d9;
+  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
   display: flex;
   justify-content: center;
   gap: 0.25rem;
@@ -554,8 +556,9 @@ p,ul, li{
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   border-radius: 2%;
-  background-color: silver;
   margin-top: 2rem;
+  background-color: #d9d9d9;
+  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%); 
 }
 .hq__wrapcontainer {
   display: flex;
@@ -754,7 +757,8 @@ p,ul, li{
   padding: 2rem;
   border: 5px solid black;
   border-radius: 2%;
-  background: linear-gradient(180deg, #8c0303 50%, #020873 50%);
+  background-color: #d9d9d9;
+  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
 }
 
 .events__container img{
