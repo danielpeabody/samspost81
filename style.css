@@ -722,11 +722,6 @@ p,ul, li{
   .uniformsection__mission {
     flex-direction: column-reverse;
   }
-  .uniformsection__mission,
-  .unifromsection__history,
-  .uniformsection__membership img {
-    margin-top: -5rem;
-  }
   .uniformsection__container h3 {
     margin-top: 2rem;
   }
