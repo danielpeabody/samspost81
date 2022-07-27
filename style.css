@@ -332,8 +332,9 @@ p,ul, li{
 .navbar__img {
   width: 50px;
 }
+
 @media (max-width: 799px) {
-  .navbar__listitem {
+  .hide {
     display: none;
   }
 
