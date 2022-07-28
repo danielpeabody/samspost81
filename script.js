@@ -1,15 +1,14 @@
-// Navigation
-
-let navButton = document.querySelector(".navbar__mobilenav");
 
 
-navButton.addEventListener('mouseover',()=> {
-    navButton.style.cursor = "pointer";
+// navigation
+
+let navmenu = document.querySelector(".nav__menu");
+let mobile__nav = document.querySelector(".show")
+
+navmenu.addEventListener('mouseover',()=>{
+    navmenu.style.cursor = "pointer";
 })
 
-navButton.addEventListener('click',()=> {
-    let nav_items = document.querySelectorAll(".navbar__listitem");
-    nav_items.forEach((item)=>{
-        item.classList.toggle("hide");
-    })
+navmenu.addEventListener('click',()=>{
+    mobile__nav.classList.toggle("mobile__nav");
 })
