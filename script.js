@@ -1,14 +1,13 @@
 
 
-// navigation
 
-let navmenu = document.querySelector(".nav__menu");
-let mobile__nav = document.querySelector(".show")
+let hamburger = document.querySelector(".fa-solid");
+let navmenu = document.querySelector(".navbar__links");
 
-navmenu.addEventListener('mouseover',()=>{
-    navmenu.style.cursor = "pointer";
+hamburger.addEventListener("mouseover",()=>{
+    hamburger.style.cursor = "pointer";
 })
 
-navmenu.addEventListener('click',()=>{
-    mobile__nav.classList.toggle("mobile__nav");
+hamburger.addEventListener("click",()=>{
+    navmenu.classList.toggle("hide");
 })
