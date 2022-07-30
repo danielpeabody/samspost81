@@ -362,6 +362,10 @@ p,ul, li{
   color: white;
 }
 
+.navbar__links .navbar__join:hover {
+  background-color: inherit;
+}
+
 .hide {
   display: none;
 }
