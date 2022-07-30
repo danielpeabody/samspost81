@@ -269,7 +269,49 @@
     </section>
     <!-- Join Section -->
     <section class="join">
-        <div class="join__container"></div>
+        <form action="" class="join__container">
+            <h2>Become a Member</h2>
+            <p>We look forward to your involvement</p>
+            <div class="join__label stack">
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Archie">
+            </div>
+            <div class="join__label stack">
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname"placeholder="McIntosh">
+            </div>
+            <div class="join__label stack">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="ArchieMcIntosh@samspost81.com">
+            </div>
+            <div class="join__label">
+                <label for="yes-no">I am of Scottish Descent:</label>
+                <input type="radio" name="yes-no" id="yes-no">Yes</input>
+                <input type="radio" name="yes-no" id="yes-no">No</input>
+            </div>
+            <div class="join__label stack">
+                <label for="surname">My surname is:</label>
+                <input type="text" name="surname" id="surname"placeholder="MacDonald">
+            </div>
+            <div class="join__label stack">
+                <label for="reasons">If not of Scots descent, reason(s) for requesting membership:</label>
+                <textarea name="reasons" id="reasons" cols="10" rows="5" placeholder="(marriage to a Scot, Commonwealth military service, etc.)"></textarea>
+            </div>
+            <div class="join__label">
+                <label for="servicebranch">Military Service:</label><br>
+                <input type="radio" name="branch" id="servicebranch">ARMY</input>
+                <input type="radio" name="branch" id="servicebranch">USMC</input>
+                <input type="radio" name="branch" id="servicebranch">NAVY</input>
+                <input type="radio" name="branch" id="servicebranch">AIR FORCE</input>
+                <input type="radio" name="branch" id="servicebranch">USCG</input><br>
+                <input type="radio" name="branch" id="servicebranch">SPACE FORCE</input>
+                <input type="radio" name="branch" id="servicebranch">British Commonwealth Forces</input>
+            </div>
+            <div class="join__label stack">
+                <label for="note">Message to Commander:</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+        </form>
     </section>
     <footer>
         <p>&copy; Daniel's Development</p>
