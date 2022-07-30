@@ -312,6 +312,8 @@ p,ul, li{
 
 .navbar__container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar__logo {
@@ -332,8 +334,9 @@ p,ul, li{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding-inline: 3rem;
 }
+
 
 .fa-solid {
   font-size: 3rem;
@@ -344,7 +347,7 @@ p,ul, li{
 }
 
 .navbar__links li {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   padding: 1rem;
 }
@@ -355,11 +358,31 @@ p,ul, li{
 }
 
 .navbar__links li:hover {
-  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 .hide {
   display: none;
+}
+
+@media(min-width: 900px){
+  .navbar__logo{
+    font-size: 1.8rem;
+    letter-spacing: .3rem;
+  }
+  .nav__links {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav__links li {
+    font-size: 1.5rem;
+  }
+  .navbar__menu {
+    display: none;
+  }
 }
 
 
