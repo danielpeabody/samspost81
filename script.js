@@ -17,6 +17,16 @@ hamburger.addEventListener("click",()=>{
     navmenu.classList.toggle("hide");
 })
 
+if(screenwith.matches){
+    navmenu.classList.remove("hide");
+    navcontainer.appendChild(navmenu);
+}
+else {
+    navmenu.classList.add("hide");
+    navcontainer.removeChild(navmenu);
+    navbar.appendChild(navmenu);
+}
+
 window.addEventListener("resize",()=>{
     if(screenwith.matches){
         navmenu.classList.remove("hide");
