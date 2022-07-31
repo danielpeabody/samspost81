@@ -816,7 +816,7 @@ p,ul, li{
 
 .join {
   background: linear-gradient(180deg, #8c0303 50%, #020873 50%);
-  height: 800px;
+  height: 810px;
   margin-block: 20rem;
   margin-inline: auto;
   padding: 1rem;
@@ -829,7 +829,7 @@ p,ul, li{
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  height: 800px;
+  height: 810px;
   margin-inline: auto;
   background-color: #d9d9d9;
   background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
@@ -852,6 +852,7 @@ p,ul, li{
   padding: 1rem;
   font-size: 1.5rem;
 }
+
 
 .stack {
   display: flex;
