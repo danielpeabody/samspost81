@@ -434,6 +434,7 @@ p,ul, li{
 }
 
 .hero--gradient {
+  font-size: clamp(2.2rem, -0.4rem + 6.4vw, 8rem);
   background: linear-gradient(40deg, #8c0303 40%, white 20%, #020873 40%);
   -webkit-background-clip: text;
   background-clip: text;
