@@ -17,10 +17,11 @@ hamburger.addEventListener("click",()=>{
     navmenu.classList.toggle("hide");
 })
 
-navmenu.addEventListener("click",()=>{
+if(!screenwith.matches){
+    navmenu.addEventListener("click",()=>{
     navmenu.classList.toggle("hide");
-})
-
+    })
+}
 
 if(screenwith.matches){
     navmenu.classList.remove("hide");
