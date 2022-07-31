@@ -714,15 +714,15 @@ p,ul, li{
 }
 
 .uniformsection__container p {
-  font-size: 1.7rem;
+  font-size: 2rem;
   line-height: 3ch;
-  max-width: 60ch;
+  max-width: 50ch;
 }
 
 .uniformsection__container ul {
   font-size: 1.5rem;
   line-height: 3ch;
-  max-width: 60ch;
+  max-width: 50ch;
 }
 
 .uniformsection__history img {
