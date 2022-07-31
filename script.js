@@ -17,14 +17,10 @@ hamburger.addEventListener("click",()=>{
     navmenu.classList.toggle("hide");
 })
 
+
 if(screenwith.matches){
     navmenu.classList.remove("hide");
     navcontainer.appendChild(navmenu);
-}
-else {
-    navmenu.classList.add("hide");
-    navcontainer.removeChild(navmenu);
-    navbar.appendChild(navmenu);
 }
 
 window.addEventListener("resize",()=>{
@@ -32,7 +28,7 @@ window.addEventListener("resize",()=>{
         navmenu.classList.remove("hide");
         navcontainer.appendChild(navmenu);
     }
-    else {
+    else if(navbar.children){
         navmenu.classList.add("hide");
         navcontainer.removeChild(navmenu);
         navbar.appendChild(navmenu);
