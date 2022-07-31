@@ -510,7 +510,7 @@ p,ul, li{
 }
 
 .aboutsection__container h2 {
-  font-size: clamp(2rem, -0.4rem + 6.4vw, 5rem);
+  font-size: 4rem;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -583,7 +583,7 @@ p,ul, li{
 /* Headquarters */
 
 .hq__header {
-    font-size: clamp(4rem, -0.4rem + 6.4vw, 5rem);
+    font-size: 4rem;
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
@@ -605,7 +605,7 @@ p,ul, li{
 }
 
 .hq h2 {
-  font-size: clamp(4rem, -0.4rem + 6.4vw, 5rem);
+  font-size: 4rem;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
@@ -700,7 +700,7 @@ p,ul, li{
 }
 
 .uniformsection__container h2 {
-  font-size: clamp(2rem, -0.4rem + 6.4vw, 5rem);
+  font-size: 4rem;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -779,7 +779,7 @@ p,ul, li{
 }
 
 .events h2 {
-  font-size: clamp(2rem, -0.4rem + 6.4vw, 5rem);
+  font-size: 4rem;
   font-weight: bold;
   text-decoration: underline;
   margin: 2rem;
