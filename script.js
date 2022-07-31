@@ -28,9 +28,8 @@ window.addEventListener("resize",()=>{
         navmenu.classList.remove("hide");
         navcontainer.appendChild(navmenu);
     }
-    else if(navbar.children){
+    else{
         navmenu.classList.add("hide");
-        navcontainer.removeChild(navmenu);
         navbar.appendChild(navmenu);
     }
 })
