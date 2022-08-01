@@ -1,6 +1,6 @@
 
 
-
+// navigation
 let hamburger = document.querySelector(".fa-solid");
 let navmenu = document.querySelector(".navbar__links");
 let navcontainer = document.querySelector(".navbar__container");
@@ -38,3 +38,5 @@ window.addEventListener("resize",()=>{
         navbar.appendChild(navmenu);
     }
 })
+
+// gallery

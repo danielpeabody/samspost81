@@ -376,6 +376,12 @@ p,ul, li{
   display: none;
 }
 
+.home {
+  margin-inline: 10rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 @media(min-width: 900px){
   .navbar__logo{
     font-size: 1.8rem;
