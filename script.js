@@ -40,3 +40,40 @@ window.addEventListener("resize",()=>{
 })
 
 // hq 
+
+// variable set
+let hqCards = document.querySelectorAll(".hq__wrapper");
+let hqCardsArr = Array.prototype.slice.call(hqCards);
+let next = document.querySelectorAll(".next");
+let back = document.querySelectorAll(".back");
+let nextArr = Array.prototype.slice.call(next);
+let backArr = Array.prototype.slice.call(back);
+
+cardCount = 0;
+// iterate on next button click
+nextArr.forEach(element => {
+    element.addEventListener("click",()=>{
+        if (cardCount < 4){
+            let current = hqCardsArr[cardCount];
+            cardCount += 1;
+            let next = hqCardsArr[cardCount]
+            current.classList.add("hidden");
+            next.classList.remove("hidden");
+        }
+    })
+});
+
+// iterate on back button click
+backArr.forEach(element => {
+    element.addEventListener("click",()=>{
+        if (cardCount > 0){
+            let current = hqCardsArr[cardCount];
+            cardCount -= 1;
+            let back = hqCardsArr[cardCount]
+            current.classList.add("hidden");
+            back.classList.remove("hidden");
+        }
+    })
+});
+
+
