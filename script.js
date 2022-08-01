@@ -39,4 +39,4 @@ window.addEventListener("resize",()=>{
     }
 })
 
-// gallery
+// hq 
