@@ -137,6 +137,7 @@ html {
   box-sizing: border-box;
   font-family: "Merriweather", serif;
   scroll-behavior: smooth;
+  scroll-padding-top: 10rem;
 }
 
 p,
