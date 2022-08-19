@@ -695,6 +695,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: justify;
   margin-inline: 2rem;
 }
 
@@ -732,24 +733,24 @@ li {
 }
 
 .uniformsection__history img {
-  max-width: 400px;
-  border: 2px solid black;
+  max-width: 350px;
   border-radius: 3%;
   width: 100%;
+  filter: drop-shadow(10px 5px 4px black);
 }
 
 .uniformsection__mission img {
-  max-width: 400px;
-  border: 2px solid black;
+  max-width: 350px;
   border-radius: 3%;
   width: 100%;
+  filter: drop-shadow(10px 5px 4px black);
 }
 
 .uniformsection__membership img {
-  max-width: 450px;
-  border: 2px solid black;
+  max-width: 350px;
   border-radius: 3%;
   width: 100%;
+  filter: drop-shadow(10px 5px 4px black);
 }
 
 .uniformsection__mission li {
@@ -757,6 +758,9 @@ li {
 }
 
 @media (max-width: 800px) {
+  .uniformsection__container{
+    text-align: center;
+  }
   .uniformsection__history,
   .uniformsection__membership {
     display: flex;
