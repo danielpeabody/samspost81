@@ -657,8 +657,8 @@ li {
   border-radius: 2%;
   box-shadow: 3px 1px 1px;
   margin-top: 1rem;
-  width: 180px;
-  height: 300px;
+  height: 470px;
+  width: 250px;
   object-fit: cover;
   object-position: 100% 0;
 }
