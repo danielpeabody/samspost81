@@ -207,6 +207,7 @@
   
   .navbar__links a {
     text-decoration: none;
+    color: black;
   }
   
   .navbar__links li:hover {
@@ -250,10 +251,49 @@
 
   .eventContainer {
     width: 80%;
-    height: 100px;
-    background-color: #020873;
+    max-width: 1000px;
     margin-inline: auto;
     margin-block: 2%;
+    color: black;
+    background-color: #d9d9d9;
+    background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+    box-shadow: 1px 1px 5px;
+  }
+
+  .eventContainer__content {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .eventContainer__content h2 {
+    font-size: 1.6rem;
+    margin: 1rem;
+    background: linear-gradient(180deg, #8c0303 50%, #020873 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .eventContainer__content h3 {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .details {
+    font-size: 1.4rem;
+  }
+
+  .eventContainer__details {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+  }
+
+  .eventContainer__details img {
+    width: 80%;
+    border: .2rem solid black;
+    margin-block: 1rem;
+    margin-inline: auto;
   }
 
   footer {
