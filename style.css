@@ -543,21 +543,21 @@ li {
 }
 
 .aboutsection__history img {
-  max-width: 400px;
+  max-width: 700px;
   border: 2px solid black;
   border-radius: 3%;
   width: 100%;
 }
 
 .aboutsection__mission img {
-  max-width: 400px;
+  max-width: 700px;
   border: 2px solid black;
   border-radius: 3%;
   width: 100%;
 }
 
 .aboutsection__membership img {
-  max-width: 450px;
+  max-width: 700px;
   border: 2px solid black;
   border-radius: 3%;
   width: 100%;
@@ -567,13 +567,16 @@ li {
   list-style-type: "~ ";
 }
 
+.uniformsection__description {
+  text-align: justify;
+}
+
 @media (max-width: 800px) {
-  .aboutsection__history,
-  .aboutsection__membership {
+  .aboutsection__history {
     display: flex;
     flex-direction: column;
   }
-  .aboutsection__mission {
+  .aboutsection__mission,.aboutsection__membership {
     flex-direction: column-reverse;
   }
   .aboutsection__mission,
