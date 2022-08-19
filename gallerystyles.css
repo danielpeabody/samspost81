@@ -212,6 +212,8 @@
   
   .navbar__links li:hover {
     background-color: var(--secondary-color);
+  }
+  .navbar__links a:hover {
     color: white;
   }
   
