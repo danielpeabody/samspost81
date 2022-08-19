@@ -255,3 +255,9 @@
     margin-inline: auto;
     margin-block: 2%;
   }
+
+  footer {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
