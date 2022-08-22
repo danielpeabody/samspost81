@@ -280,10 +280,17 @@
     font-size: 1.6rem;
     line-height: 1.6rem;
     margin-bottom: 1rem;
+    letter-spacing: .2rem;
+    text-decoration: underline;
+  }
+
+  .event {
+    font-weight: bolder;
   }
 
   .details {
     font-size: 1.4rem;
+    padding: .5rem;
   }
 
   .eventContainer__details {
