@@ -257,6 +257,12 @@
     margin-block: 2%;
   }
 
+  .eventContainer h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 3rem;
+  }
+
   .eventContainer__content {
     padding: 2rem;
     text-align: center;
