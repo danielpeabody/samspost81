@@ -201,8 +201,7 @@
   
   .navbar__links li {
     font-size: 1.4rem;
-    text-transform: uppercase;
-    padding: 1rem;
+    padding: .5rem;
   }
   
   .navbar__links a {
